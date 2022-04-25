@@ -3,8 +3,11 @@
 //const aNswer;
 
 const perfectNumber = (nUmber) => {
-  a = nUmber * (1 + 0.05 * 0.67);
-  return alert(a);
+  const MONEY_PERCENT = 1 + 0.05 * 0.67;
+
+  totalMoney = nUmber * MONEY_PERCENT;
+
+  return alert(totalMoney);
 };
 
 const nUmber = +prompt(`Enter number of money`);
